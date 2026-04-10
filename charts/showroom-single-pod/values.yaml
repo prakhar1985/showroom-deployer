@@ -49,7 +49,7 @@ nookbag_sidecar:
       memory: 16Mi
 
 runtime_automation:
-  setup: "false"
+  setup: "true"
   image: quay.io/rhpds/zt-runner:v2.4.2
   imagePullPolicy: Always
   port: 8501
